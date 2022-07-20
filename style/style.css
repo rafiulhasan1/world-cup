@@ -1,0 +1,184 @@
+/*----- google font style and utilities -----*/
+@import url('https://fonts.googleapis.com/css2?family=Arima&family=Gentium+Book+Plus:ital@1&family=Lobster&family=Nunito&family=Poppins:wght@500&family=Roboto:wght@300;400&family=Ubuntu&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/*------------------------
+ player article part start
+ --------------------------*/
+
+.players-part{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 1321px;
+    height: 646px;
+    background-color: #161616;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-left:140px;
+    margin-right: 139px;
+    margin-bottom: 100px;
+}
+.article{
+    margin-top: 111px;
+    margin-left: 106px;
+    margin-bottom: 111px;
+}
+.article .article-h{
+    font-weight: 700;
+    font-size: 70px;
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.article .article-p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+.article .article-b{
+    width: 187px;
+    height: 56px;
+    padding: 16px 25px;
+    background-color: #DD0000;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+.player .brazil-6{
+    width: 581px;
+    height: 613px;
+    margin-top: 33px;
+    margin-bottom: 0;
+    margin-right: 79px;
+}
+/*---------------------------------------
+ aside part and player article part start
+ -----------------------------------------*/
+ .blog{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 24px;
+    grid-column-gap: 24px;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-bottom: 130px;
+ }
+ /*---------------
+  aside part start
+  ---------------- */
+ .item-1{
+    width: 312px;
+    height: 312px;
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    grid-row: 1/4;
+}
+.item-1 .item-01 .butt-1{
+    text-decoration: none;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 16px 37px;
+    text-align: center;
+    display: inline-block;
+    color: black;
+    margin: 30px;
+    font-size: 20px;
+}
+.item-1 .item-01 .butt-01{
+    text-decoration: none;
+    width: 252px;
+    height: 64px;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 30px;
+}
+.item-1 .item-02 .butt-2{
+    text-decoration: none;
+    width: 252px;
+    height: 64px;
+    border-radius: 10px;
+    color: white;
+    margin-left: 25px;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 30px;
+    background-color: #DD0000;
+}
+ /*------------------------
+ player article part start
+ --------------------------*/
+ 
+ .blogs{
+    width: 312px;
+    height: 362px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+
+ }
+.blogs .blog-button{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 5px 10px;
+    font-size: 15px;
+}
+.blogs .blog-p{
+    font-weight: 600;
+    font-size: 14px;
+    color: #161616;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.time-comment{
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px;
+}
+.time-comment .time{
+    padding: 5px;
+}
+.time-comment .comment{
+    padding: 5px;
+}
+ /*----------------
+ footer part start
+ ------------------*/
+ .last-part{
+    width: 100%;
+    height: 444px;
+    background-color: #161616;
+    text-align: center;
+ }
+ .last-h{
+    color: #FFFFFF;
+    font-size: 36px;
+    padding-top: 130px;
+    padding-bottom: 50px;
+ }
+ hr{
+    width: 80%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 50px;
+ }
+ span{
+    padding: 20px;
+    font-size: 16px;
+    color: #B9B9B9;
+ }
+ .icon{
+    color: #FFFFFF;
+    display: grid;
+    grid-template-columns: repeat(5, 50px);
+    justify-content: center;
+    margin: 25px;
+ }
